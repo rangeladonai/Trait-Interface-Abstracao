@@ -1,5 +1,5 @@
 <?php
-
+require "Trait/HasMenu.php";
 class Play
 {
     use HasMenu;

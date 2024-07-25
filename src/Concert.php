@@ -1,5 +1,6 @@
 <?php
-
+require "Interface/PricingContract.php";
+require "Trait/HasMenu.php";
 class Concert implements PricingContract
 {
     use HasMenu;

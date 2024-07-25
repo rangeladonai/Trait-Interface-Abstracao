@@ -1,5 +1,5 @@
 <?php
-
+require "AbstractClass/Event.php";
 class Movie extends Event
 {
     public function __construct($maxPeoples)
